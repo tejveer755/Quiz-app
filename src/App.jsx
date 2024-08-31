@@ -164,7 +164,7 @@ function App() {
 
   // Calculate correct and incorrect answers
   const correctAnswers = questionStatus.filter(status => status.isCorrect).length;
-  const incorrectAnswers = questionStatus.filter(status=> status.isCorrect === false).length+1;
+  const incorrectAnswers = questionStatus.filter(status=> status.isCorrect === false).length;
 
   return (
     <>
