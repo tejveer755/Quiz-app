@@ -45,7 +45,7 @@ Feel free to fork this repository, create issues, or submit pull requests. All c
 
 ## Links
 
-- **Live Site**: [Quiz App](https://tejveer755.github.io/Quiz-App/)
+- **Live Site**: [Quiz App](https://tejveer755.github.io/Quiz-app/)
 - **Portfolio**: [Tejveer's Portfolio](https://tejveer755.github.io/Portfolio-website/)
 - **GitHub**: [Tejveer's GitHub](https://github.com/tejveer755)
 
