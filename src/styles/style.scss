@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
@@ -18,7 +18,6 @@ html {
   justify-content: center;
 }
 
-
 .quiz_home {
   display: flex;
   align-items: center;
@@ -32,7 +31,6 @@ html {
     padding: 30px;
     width: 60%;
     text-align: center;
-    font-family: "Shadows Into Light", cursive;
     border-radius: 10px;
     background: rgba(91, 91, 98, 0.3); /* Blue-greyish tone */
     backdrop-filter: blur(70px); /* Adds the blur effect */
@@ -42,13 +40,16 @@ html {
       line-height: 60px;
       margin: 30px 0;
       color: #fee6e6;
+      font-family: "Handjet", sans-serif;
+      font-weight: 500;
+      letter-spacing: 6px;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
       width: 70%;
       margin: 0 auto;
       line-height: 25px;
-      color: #fee6e6;
+      color: #bfbebe;
       font-family: "Poppins", sans-serif;
     }
 
@@ -299,13 +300,13 @@ html {
   }
 }
 
-
 .score_card {
   padding: 30px;
   width: 80%;
   margin: auto;
   text-align: center;
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Handjet", sans-serif;
+  font-weight: 500;
   border-radius: 10px;
   background: rgba(91, 91, 98, 0.3); /* Blue-greyish tone */
   backdrop-filter: blur(70px); /* Adds the blur effect */
@@ -317,6 +318,7 @@ html {
     line-height: 60px;
     margin: 20px 0;
     color: #fee6e6;
+    letter-spacing: 5px;
   }
   p {
     font-size: 1.3rem;
