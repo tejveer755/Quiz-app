@@ -35,9 +35,8 @@ const Question = ({
                                     : ''
                             }
                             disabled={!!selectedAnswer} // Disable all buttons after an answer is selected
-                        >
-                            {option}
-                        </button>
+                            dangerouslySetInnerHTML={createMarkup(option)}
+                        />
                     </li>
                 ))}
             </ul>
